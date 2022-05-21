@@ -2,31 +2,31 @@ export const appBaseUrl = process.env.NEXT_PUBLIC_APP_URL;
 export const fileBaseUrl = process.env.NEXT_PUBLIC_API_URL;
 export const logoPath = '/assets/logos/logo.png';
 export const logoButtonPath = '/assets/logos/logo-button.png';
-export const siteTitle = 'Jonathan Smith - UI/UX Designer, Web Developer';
+export const siteTitle = 'ALvin Fernando - Fullstack, Web and Mobile Developer';
 export const siteMetaDescription =
-  "Hello, my name is Jonathan Smith. I'm a UI/UX Designer and Web Developer";
-export const devName = 'Jonathan Smith';
-export const devNick = 'Jonny';
+  "Hello, I am ALvin. I'm a fullstack Web and Mobile Developer";
+export const devName = 'ALvin Fernando';
+export const devNick = 'Alvin';
 export const socialLinks = {
-  github: 'https://github.com/jonny',
-  twitter: 'https://twitter.com/jonny',
-  linkedin: 'https://www.linkedin.com/in/jonny/',
-  instagram: 'https://instagram.com/jonny',
-  facebook: 'https://facebook.com/jonny',
-  mail: 'info@jonny.com',
+  github: 'https://github.com/LaravelALvin',
+  twitter: 'https://twitter.com/DddyAlvin',
+  linkedin: 'https://www.linkedin.com/',
+  instagram: 'https://instagram.com/alvinthoughts',
+  facebook: 'https://facebook.com/TheOfficialALvin',
+  mail: 'alvinfernando404@gmail.com',
 };
 export const showResume = true;
 export const resumeLink = '#';
 export const callToAction =
-  'I’m a Product Designer and Visual Developer currently seeking Full Time Remote Job Opportunities. I specialize in UI/UX Design, Responsive Web Design and Visual Development.';
-export const copyrightText = 'Made with ❤️ by BASHY';
-export const copyrightUrl = 'https://bashiruismail.io';
+  'I’m a Driven student leveraging studies in Information Technology seeking real-world experience as a Computer Programmer. Offers strong interpersonal and task prioritization skills.';
+export const copyrightText = '© 2021 ALvin. All Rights Reserved';
+export const copyrightUrl = 'https://alvinf.vercel.app/';
 export const aboutExcerpt =
-  'I design & create unique award-winning, tailor-made websites and user interfaces! I can also take care of promotion for your brand, in social media channels and search engines. I have worked in startups as well as well-established companies. Learn more about me and how I turn ideas into real life products.';
+  'I design and develop one-of-a-kind, award-winning websites and mobile applications! I can also handle your brand\'s promotion on social media and through search engines. I have worked for both startups and established businesses. Learn more about who I am and how I transform concepts into reality.';
 export const portfolioDescription =
-  'I design & create unique award-winning, tailor-made websites and user interfaces! I have worked in startups as well as well-established companies. You can learn more about how I turn ideas into real life products. Please find below Projects that I can share with you.';
+'I design and develop one-of-a-kind, award-winning websites and mobile applications! I can also handle your brand\'s promotion on social media and through search engines. I have worked for both startups and established businesses. Learn more about who I am and how I transform concepts into reality.';
 export const blogDescription =
-  'Articles packed with actionable tips and insights on how good design positively impacts your business.';
+  'Articles brimming with actionable advice and insights on how smart design may benefit your business.';
 
 export const portfolioType = {
   design: 'UI/UX Design',
@@ -311,7 +311,7 @@ export const blogList = [
   },
   {
     uri: 'demo-article',
-    title: 'Jonny is still Typing',
+    title: 'Alvin is still Typing',
     publishDateTime: '2021-10-11T20:26:46.005Z',
     shortDescrip:
       'The challenge was to portray the age of Julius Caesar in a way that was true to the history and yet an utterly joyous recalibration of it. Brutality had to be portrayed as knockabout; a world of mud and gore and fire repainted in primary colours. Uderzo, who was colour blind, much preferred the clear line to any hint of shade.',
@@ -320,7 +320,7 @@ export const blogList = [
 
 export const blogSingle = {
   uri: 'demo-article',
-  title: 'Somewhere in America, Jonny is still Typing',
+  title: 'Somewhere in America, ALvin is still Typing',
   publishDateTime: '2021-10-11T20:26:46.005Z',
   shortDescrip:
     'The challenge was to portray the age of Julius Caesar in a way that was true to the history and yet an utterly joyous recalibration of it. Brutality had to be portrayed as knockabout; a world of mud and gore and fire repainted in primary colours. Uderzo, who was colour blind, much preferred the clear line to any hint of shade.',

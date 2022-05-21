@@ -67,8 +67,8 @@ function Root({ title, description, banner, children }) {
         <meta property="og:description" content={description} />
         <meta property="og:image" content={banner} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@bashy_io" />
-        <meta name="twitter:creator" content="@bashy_io" />
+        <meta name="twitter:site" content="@DddyAlvin" />
+        <meta name="twitter:creator" content="@DddyAlvin" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={banner} />

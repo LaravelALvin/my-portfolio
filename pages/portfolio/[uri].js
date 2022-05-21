@@ -93,7 +93,7 @@ export default function Portfolio() {
               </div>
               <div data-aos="fade-up" data-aos-delay="300">
                 <Spacing />
-                <H3 className="color-primary">Roles</H3>
+                <H3 className="color-primary">Features</H3>
                 <ul>
                   {portfolioSingle.roles.list.map((tool, index) => (
                     <li key={`tech-${index}`}>{tool}</li>
@@ -118,43 +118,6 @@ export default function Portfolio() {
           <Spacing />
         </Container>
       </Section>
-      <Section>
-        <Swiper
-          direction="horizontal"
-          slidesPerView={1}
-          freeMode
-          a11y
-          updateOnWindowResize
-          keyboard={{ enabled: true }}
-          pagination={{ clickable: true }}
-          navigation
-          modules={[Keyboard, FreeMode, Navigation]}
-          breakpoints={{
-            550: {
-              slidesPerView: 1.4,
-            },
-            720: {
-              slidesPerView: 1.6,
-            },
-            1024: {
-              slidesPerView: 1.7,
-            },
-          }}
-        >
-          {imageList.map((image, index) => (
-            <SwiperSlide key={`image-slide-${index}`}>
-              <img
-                src={`${fileBaseUrl}${image.url}`}
-                className="swiper-image"
-                alt={image.name || 'Slider Image'}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <div className="swiper-descrip">
-          [Swipe to Slide, Use Arrow Keys or Click & Drag]
-        </div>
-      </Section>
       <Section data-aos="fade-up" className="pb-0">
         <Container>
           <Row>
@@ -164,9 +127,9 @@ export default function Portfolio() {
           <Row>
             <Col fraction={1}>
               <Subtitle color="secondary">
-                {portfolioType[portfolioSingle.type]}
+                {'Web Developement'}
               </Subtitle>
-              <H1>{portfolioSingle.title}</H1>
+              <H1>{'Caraga Region Crop Production Map'}</H1>
               <Button
                 href={portfolioSingle.previewUrl}
                 color="secondaryOutline"

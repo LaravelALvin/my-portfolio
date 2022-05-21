@@ -8,6 +8,7 @@ export const siteMetaDescription =
 export const devName = 'ALvin Fernando';
 export const devNick = 'Alvin';
 export const socialLinks = {
+  buymeacoffee: 'https://www.buymeacoffee.com/alvinf',
   github: 'https://github.com/LaravelALvin',
   twitter: 'https://twitter.com/DddyAlvin',
   linkedin: 'https://www.linkedin.com/',
@@ -32,6 +33,7 @@ export const portfolioType = {
   design: 'UI/UX Design',
   webDesign: 'Website Design',
   webDevelopment: 'Web Development',
+  androidDevelopement: 'Android Development',
 };
 
 export const portfolioFilters = [
@@ -58,7 +60,7 @@ export const portfolioGridData = [
     title: 'Afoods - Food Delivery System',
     uri: 'Afoods',
     featured: true,
-    type: 'design',
+    type: 'androidDevelopement',
     tools: {
       list: ['Android', 'Firebase', 'Firestore', 'Flutter'],
     },
@@ -265,28 +267,28 @@ export const portfolioGridData = [
 ];
 
 export const portfolioSingle = {
-  title: 'Science & Tech Official Website',
-  uri: 'demo-project',
+  title: 'Afoods',
+  uri: 'afoods',
   featured: true,
-  type: 'webDevelopment',
+  type: 'androidDevelopement',
   viewOrder: 14,
   thumb: {
     url: '/assets/img/portfolio-1.jpg',
   },
   parallax: {
-    url: '/assets/img/portfolio-mockup.jpg',
+    url: '/assets/img/portfolio-1.jpg',
   },
   tools: {
-    list: ['HTML5/CSS3', 'ReactJS', 'NodeJS', 'PHP'],
+    list: ['Flutter', 'Dart', 'Firebase', 'Firestore'],
   },
   roles: {
-    list: ['UI/UX Design', 'Web Design/Development', 'Brand Identity'],
+    list: ['Create Meal Plans','Browse Tasty Foods', 'Schedule Delivery', 'Pin Google Map Location'],
   },
   shortDescrip:
-    'This is a full featuressss Portfolio Website built in React. It includes a custom built design system using Emotion. It also includes Popular Portfolio Website Components.',
+    'Afoods is a social platform for food SME\'s to onboard their tasty and nutritious food in a low prices where users around the globe can view online.',
   content:
-    "The Github package includes responsive and fully animated pages with different sections. If you'd like to modify it, I've intentionally created different content pages to maximize the number of layout options. I made a simple theming kit to make it easier for you to customize the Interface. You can mix and match the components to build different types of designs.\n\nThe website is Front-End Only and If you'd like to connect it to an API to fetch data (e.g for the Portfolio/Blog), you'll need experience working with Next.js & React.js.",
-  previewUrl: '#',
+    "Afoods is a startup in the Philippines aiming to help small and mid-size enterprise (SME) to recovery from the impact of covid-19. The application will become a flatform for SME\'s to showcase their tasty and affordable foods. SME\'s are worriless regarding with thier customers since they make an access to the market and can operate at the comfort of their home.\n \nThe goal of this research is to develop a subscription-based food delivery system by offering its users their chosen meals of the day, the system is capable of providing a long-term service to its subscribers. Users may create meal plans based on thier food preferences and subscribe on it. ",
+  previewUrl: 'facebook.com/theofficialalvin',
   githubUrl: '#',
   gallery: [
     {

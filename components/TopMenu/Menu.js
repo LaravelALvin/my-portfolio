@@ -239,6 +239,24 @@ function Menu({ toggleOpen, showLinks1, showSocials, setShowLoading }) {
             </CSSTransition>
           </Col>
         </Row>
+        <Row>
+            <Col fraction={2}>
+              <p className="fade-text mb-0">Buy me a coffee</p>
+              <p
+                className="big-text-3 mb-0"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
+              <a
+                target="_blank"
+                className="white-link-secondary"
+                href={`${socialLinks.buymeacoffee}`}
+              >
+                {socialLinks.buymeacoffee}
+              </a>
+            </p>
+            </Col>
+          </Row>
       </Container>
     </div>
   );

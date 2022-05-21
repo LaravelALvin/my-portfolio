@@ -125,6 +125,17 @@ export default function Contact() {
                   </a>
                 </p>
                 <Spacing />
+                <p className="fade-text mb-0">Buy me a coffee:</p>
+                <p className="big-text-3 mb-0 mt-0">
+                  <a
+                    target="_blank"
+                    className="white-link-secondary"
+                    href={`${socialLinks.buymeacoffee}`}
+                  >
+                    {socialLinks.mail}
+                  </a>
+                </p>
+                <Spacing />
                 <p className="fade-text mb-1">CONNECT:</p>
                 <ul className="footer-social pb-4">
                   {socialLinks.github && (

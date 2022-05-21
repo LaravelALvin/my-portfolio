@@ -55,12 +55,12 @@ export const portfolioFilters = [
 
 export const portfolioGridData = [
   {
-    title: 'UI/UX Design Landing Page',
-    uri: 'demo-project',
+    title: 'Afoods - Food Delivery System',
+    uri: 'Afoods',
     featured: true,
     type: 'design',
     tools: {
-      list: ['Adobe Creative Suite', 'Corel Draw'],
+      list: ['Android', 'Firebase', 'Firestore', 'Flutter'],
     },
     viewOrder: 16,
     thumb: {

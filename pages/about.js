@@ -53,7 +53,7 @@ export default function About() {
             >
               <div>
                 <img
-                  src="/assets/img/portrait.jpg"
+                  src="/assets/img/portrait2.jpeg"
                   alt={`Portrait of ${devName}`}
                   className="portrait"
                 />

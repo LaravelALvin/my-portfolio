@@ -271,7 +271,7 @@ export const portfolioSingle = {
   type: 'webDevelopment',
   viewOrder: 14,
   thumb: {
-    url: '/assets/img/portfolio-4.jpg',
+    url: '/assets/img/portfolio-1.jpg',
   },
   parallax: {
     url: '/assets/img/portfolio-mockup.jpg',
@@ -283,7 +283,7 @@ export const portfolioSingle = {
     list: ['UI/UX Design', 'Web Design/Development', 'Brand Identity'],
   },
   shortDescrip:
-    'This is a full feature Portfolio Website built in React. It includes a custom built design system using Emotion. It also includes Popular Portfolio Website Components.',
+    'This is a full featuressss Portfolio Website built in React. It includes a custom built design system using Emotion. It also includes Popular Portfolio Website Components.',
   content:
     "The Github package includes responsive and fully animated pages with different sections. If you'd like to modify it, I've intentionally created different content pages to maximize the number of layout options. I made a simple theming kit to make it easier for you to customize the Interface. You can mix and match the components to build different types of designs.\n\nThe website is Front-End Only and If you'd like to connect it to an API to fetch data (e.g for the Portfolio/Blog), you'll need experience working with Next.js & React.js.",
   previewUrl: '#',
